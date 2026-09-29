@@ -1,0 +1,17 @@
+{
+  "lastAgent": "agent-269d73e5-7ee4-4526-b1a6-030cba0f206b",
+  "sessionsByServer": {
+    "api.letta.com": {
+      "agentId": "agent-269d73e5-7ee4-4526-b1a6-030cba0f206b",
+      "conversationId": "default"
+    },
+    "local:/Users/carlmuck/.letta/lc-local-backend": {
+      "agentId": "agent-local-696c77c4-23a1-43ea-9e97-0b82dc949a9c",
+      "conversationId": "default"
+    }
+  },
+  "lastSession": {
+    "agentId": "agent-269d73e5-7ee4-4526-b1a6-030cba0f206b",
+    "conversationId": "default"
+  }
+}

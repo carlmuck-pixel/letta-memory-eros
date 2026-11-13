@@ -14,5 +14,5 @@ Version 0.34.36, macOS CLI.
 2. Re-send the same content in compact form (tables/bullets, less prose) — don't just say "sorry,
    can you see it now?"
 3. Offer to file it with the Letta team via the `submitting-feedback` skill (ask first; don't auto-submit).
-4. If it recurs mid-task repeatedly, suggest restarting the CLI session — display state sometimes
-   unsticks on reconnect.
+4. If it persists, suggest Carl restart the local inference server — that cleared it once and the
+   re-sent reply went through; a CLI session restart is the fallback.

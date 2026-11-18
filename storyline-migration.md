@@ -88,6 +88,15 @@ rows — offered to patch. (5) Ch 27/28 dirs genuinely empty (placeholders).
 **Volatile risk:** converter reads `/tmp/storyline_registry/*.yaml` (agent-built registry)
 and reports live there — copy registry + reports into `whispers/work/` to survive a reboot.
 
+**Canonical root moved (18 Nov 2026):** Carl works from `/Volumes/G-DRIVE ArmorATD/writing/whispers`
+now (external drive). Old `~/Documents/writing/whispers` copy still exists — treat as stale
+duplicate; ask before touching. Toolchain made **fully portable** (Carl's requirement): scripts
+resolve root via `$WHISPERS_ROOT` → upward search from cwd (`manuscript/current_draft` marker) →
+script's own repo; PyYAML dependency bootstraps into `work/.venv` (created on drive — run
+`sh work/setup.sh` once per new machine; scripts re-exec into venv automatically). Registry at
+`work/storyline_registry/`. Verified all launch modes identical (140/96/25/2) 18 Nov; pre-run
+scene backup `/tmp/scenes_backup_2026-11-18`.
+
 ## Lead box / hall clock lore (13 Nov late — co-authoring mode with Carl)
 
 **ESCALATION LAW (Carl, governs ALL scene edits):** story opens grounded — dissolving
